@@ -1,0 +1,49 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f0f4f7, #d9e2ec); 
+}
+
+.register-card {
+  max-width: 450px;
+  width: 100%;
+  padding: 2.5rem;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.register-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.register-card h2 {
+  font-weight: 600;
+  color: #333;
+}
+
+.register-card .btn-success {
+  background-color: #28a745;
+  border: none;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.register-card .btn-success:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+
+.register-card a {
+  color: #28a745;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.register-card a:hover {
+  color: #1e7e34;
+  text-decoration: underline;
+}

@@ -1,0 +1,28 @@
+.navbar .custom-link {
+  position: relative;
+  color: #333;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s;
+}
+
+.navbar .custom-link:hover {
+  color: #007bff;
+}
+
+/* Barra animada */
+.navbar .active-indicator {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 0;
+  background-color: #007bff;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+
+.navbar .nav-item .active.router-link-active ~ .active-indicator {
+  width: 100%;
+}
